@@ -7,7 +7,7 @@
 
 import UIKit
 
-class EditLimitViewController: UIViewController {
+class EditLimitVC: UIViewController {
 
     // UI elements
     let cancelButton = UIButton()

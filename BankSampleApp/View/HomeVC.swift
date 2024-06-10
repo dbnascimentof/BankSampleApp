@@ -121,6 +121,6 @@ class HomeVC: UIViewController {
         setDailyPeriod()
         setLimitName()
         
-        present(EditLimitViewController(maxLimitAmount: self.maximumLimit, stepAmount: self.stepAmount, dailyPeriod: self.dailyPeriod, limitName: self.limitName), animated: true)
+        present(EditLimitVC(maxLimitAmount: self.maximumLimit, stepAmount: self.stepAmount, dailyPeriod: self.dailyPeriod, limitName: self.limitName), animated: true)
     }
 }
